@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+/* @font-face {
+    font-family: "StencilStd";
+    src:url('./fonts/StencilStd.eot') format('embedded-opentype'),
+        url('./fonts/StencilStd.otf') format("opentype"); */
+
+
+/* Set default values here */
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+/* This styles the "title" of the page */
+#header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+/* These things style the videos */
+.video {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* This styles all links */
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* These styles the "h1" and "h2" tags. ex: <h1> TEXT </h1> */
+h1 a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100px;
+  -webkit-margin-after: 0;
+  text-shadow: none;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 45px;
+  line-height: 1.5em;
+  font-weight: normal;
+  -webkit-margin-after: 0;
+}
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  -webkit-margin-after: 0;
+}
+
+/* This styles anything with class="category" */
+.category {
+  clear: both;
+  margin-left: 15px;
+}
+
+/* This class styles only the image links with class="activity" */
+.activity {
+  margin: 10px;
+  padding: 5px;
+  width: 220px;
+  height: 200px;
+  float: left;
+}
+
+/* This class styles the "even more" links at the bottom */
+.link {
+  line-height: 100px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(100, 100, 150, 0.5);
+}
+
+/* Start Here */
+#garden-bot {
+  background: url('./img/garden_bot.png') no-repeat;
+}
+
+#minecraft {
+  background: url('./img/minecraft.jpg') no-repeat;
+}
+
+#frozen {
+  background: url('./img/logo_tall_frozen.jpg') no-repeat;
+}
+
+#starwars {
+  background: url('./img/logo_tall_starwars.jpg') no-repeat;
+}
+
+/* Try More */
+#dress {
+  background: url('./img/dress.jpg') no-repeat;
+}
+
+#bubble-name {
+  background: url('./img/bubble-name.jpg') no-repeat;
+}
+
+#about-me-website {
+  background: url('./img/about_me.jpg') no-repeat;
+}
+
+#solar-system {
+  background: url('./img/solar-system.jpg') no-repeat;
+}
+
+#light-bot {
+  background: url('./img/light_bot.png') no-repeat;
+}
+
+#java {
+  background: url('./img/java-logo.jpg') no-repeat;
+}
+
+#app-inventor {
+  background: url('./img/app-inventor.png') no-repeat;
+}
+
+#code-combat {
+  background: url('./img/code-combat.jpg') no-repeat;
+}
+
+/* I want a challenge */
+#flappy-bird {
+  background: url('./img/flappy.jpg') no-repeat;
+}
+
+#scratch {
+  background: url('./img/scratch.jpg') no-repeat;
+}
+
+#build-game {
+  background: url('./img/build-game.jpg') no-repeat;
+}
+
+#khan-academy {
+  background: url('./img/khan-academy.png') no-repeat;
+}
+
+#symantec {
+  background: url('./img/symantec.png') no-repeat;
+  width: 370px;
+  height: 120px;
+  float: left;
+  margin: 10px;
+}
+
+#team-178 {
+  font-family: "stencil-std";
+  line-height: 150px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000178;
+  border-radius: 20px; /* Gives box rounded corners */
+  color: #FFD000;
+}
