@@ -159,10 +159,15 @@ h3 {
 
 #team-178 {
   font-family: "stencil-std";
-  line-height: 150px;
+  line-height: 120px;
   margin: 10px;
   padding: 10px;
-  background-color: #000178;
+  background-color: #1A245B;
   border-radius: 20px; /* Gives box rounded corners */
   color: #FFD000;
+  transform: scale(1,1.55);
+  -webkit-transform:scale(1,1.55); /* Safari and Chrome */
+  -moz-transform:scale(1,1.55); /* Firefox */
+  -ms-transform:scale(1,1.55); /* IE 9+ */
+  -o-transform:scale(1,1.55); /* Opera */
 }
