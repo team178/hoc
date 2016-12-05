@@ -80,28 +80,7 @@ h3 {
   margin: 10px;
   padding: 10px;
   background-color: rgba(100, 100, 150, 0.5);
-}
-
-/* Start Here */
-#garden-bot {
-  background: url('./img/garden_bot.png') no-repeat;
-}
-
-#minecraft {
-  background: url('./img/minecraft.jpg') no-repeat;
-}
-
-#frozen {
-  background: url('./img/logo_tall_frozen.jpg') no-repeat;
-}
-
-#starwars {
-  background: url('./img/logo_tall_starwars.jpg') no-repeat;
-}
-
-/* Try More */
-#dress {
-  background: url('./img/dress.jpg') no-repeat;
+  border-radius: 15px;
 }
 
 #bubble-name {
@@ -120,54 +99,41 @@ h3 {
   background: url('./img/light_bot.png') no-repeat;
 }
 
-#java {
-  background: url('./img/java-logo.jpg') no-repeat;
+#text-compression {
+  background: url('./img/text-compression.png') no-repeat;
+}
+
+#calculators {
+  background: url('./img/calculators.png') no-repeat;
 }
 
 #app-inventor {
   background: url('./img/app-inventor.png') no-repeat;
 }
 
-#code-combat {
-  background: url('./img/code-combat.jpg') no-repeat;
+
+#flappy-bike {
+  background: url('./img/flappy-bike.png') no-repeat;
 }
 
-/* I want a challenge */
-#flappy-bird {
-  background: url('./img/flappy.jpg') no-repeat;
+#iphone-game {
+  background: url('./img/iphone-game.png') no-repeat;
 }
 
-#scratch {
-  background: url('./img/scratch.jpg') no-repeat;
+#javascript {
+  background: url('./img/javascript.png') no-repeat;
 }
 
-#build-game {
-  background: url('./img/build-game.jpg') no-repeat;
+#processing {
+  background: url('./img/processing.png') no-repeat;
 }
 
-#khan-academy {
-  background: url('./img/khan-academy.png') no-repeat;
+
+
+#robot-java {
+  background: url('./img/java-logo.jpg') no-repeat;
 }
 
-#symantec {
-  background: url('./img/symantec.png') no-repeat;
-  width: 370px;
-  height: 120px;
-  float: left;
-  margin: 10px;
-}
-
-#team-178 {
-  font-family: "stencil-std";
-  line-height: 150px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #1A245B;
-  border-radius: 20px; /* Gives box rounded corners */
-  color: #FFD000;
-  transform: scale(1,1.55);
-  -webkit-transform:scale(1,1.55); /* Safari and Chrome */
-  -moz-transform:scale(1,1.55); /* Firefox */
-  -ms-transform:scale(1,1.55); /* IE 9+ */
-  -o-transform:scale(1,1.55); /* Opera */
+#frogger {
+  background: url('./img/frogger.png') no-repeat;
 }

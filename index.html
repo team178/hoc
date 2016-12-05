@@ -3,68 +3,43 @@
 <head>
   <link rel="stylesheet" type="text/css" href="./hour-of-code.css">
   <title>FHS Hour of Code</title>
-  <!--This imports the Stencil font for use anywhere on the page-->
-  <script>
-    (function(d) {
-      var config = {
-      kitId: 'zpk3ogt',
-      scriptTimeout: 3000,
-      async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script>
 </head>
-<body>
 
+<body>
 <div id="header">
   <h1><a href="/hofc">FHS Hour of Code</a></h1>
   <h2>(Talk to the person at your table about what to do)</h2>
 </div>
 
-<iframe class="video" width="420" height="315" src="https://www.youtube.com/embed/QzPfsqTnuwo" frameborder="0" allowfullscreen></iframe>
-<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/6XvmhE1J9PY" frameborder="0" allowfullscreen></iframe>
+<div id="start-here" class="category">
+  <h2>Beginner:</h2>
+    <a id="bubble-name" class="activity" href="https://www.codecademy.com/courses/hour-of-code-en/0/1">Animate your Name</a>
+    <a id="about-me-website" class="activity" href="https://www.codecademy.com/courses/web-beginner-en-3pc6w/0/1">About Me Website</a>
+    <a id="solar-system" class="activity" href="https://www.codecademy.com/courses/web-beginner-en-ymqg0/0/1">Make a Solar System</a>
+    <a id="text-compression" class="activity" href="https://studio.code.org/s/text-compression/stage/1/puzzle/1">Text Compression</a>
+    <a id="calculators" class="activity" href="https://education.ti.com/en/us/solutions/ti-codes">Calculator Encryption</a>
+    <a id="app-inventor" class="activity" href="http://appinventor.mit.edu/explore/hour-of-code.html">App Inventor</a>
+    <a id="light-bot" class="activity" href="http://lightbot.com/hocflash2014.html">Light Bot</a>
+</div>
 
-  <div id="start-here" class="category">
-    <h2>Start Here:</h2>
-      <a id="flappy-bird" class="activity" href="https://studio.code.org/flappy/1">Flappy Bird (Easy)</a>
-      <a id="minecraft" class="activity" href="https://studio.code.org/s/mc/stage/1/puzzle/1">Minecraft</a>
-      <a id="frozen" class="activity" href="https://studio.code.org/s/frozen/stage/1/puzzle/1">Frozen</a>
-      <a id="light-bot" class="activity" href="http://lightbot.com/hocflash2014.html">Light Bot</a>
-      <a id="starwars" class="activity" href="https://studio.code.org/s/starwars/stage/1/puzzle/1">Star Wars</a>
-      <a id="garden-bot" class="activity" href="https://www.madewithcode.com/projects/robots">Garden Bot</a>
-      <a id="app-inventor" class="activity" href="http://appinventor.mit.edu/explore/hour-of-code.html">App Inventor</a>
-      <a id="scratch" class="activity" href="https://scratch.mit.edu/hoc/">Scratch</a>
-  </div>
-  <div id="try-more" class="category">
-    <h2>Try More:</h2>
-      <a id="dress" class="activity" href="https://www.madewithcode.com/projects/fashion">LED Dress</a>
-      <a id="code-combat" class="activity" href="http://codecombat.com/hoc">Code Combat</a>
-      <a id="build-game" class="activity" href="https://www.codeavengers.com/javascript/100">Build a Game in JavaScript</a>
-      <a id="bubble-name" class="activity" href="https://www.codecademy.com/courses/hour-of-code-en/0/1">Animate your Name</a>
-      <a id="about-me-website" class="activity" href="https://www.codecademy.com/courses/web-beginner-en-3pc6w/0/1">About Me Website</a>
-      <a id="solar-system" class="activity" href="https://www.codecademy.com/courses/web-beginner-en-ymqg0/0/1">Make a Solar System</a>
-  </div>
-  <div id="want-challenge" class="category">
-    <h2>For Advanced Coders:</h2>
-    <a id="flappy-bird" class="activity" href="https://www.makeschool.com/build-flappy-bird-in-your-browser">Flappy Bird (Difficult)</a>
-    <a id="khan-academy" class="activity" href="https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/v/welcome-hour-of-code">Khan Academy</a>
-    <a id="java" class="activity" href="https://www.codecademy.com/learn/learn-java">Learn Java</a>
-  </div>
-  <div id="young-coders" class="category">
-    <h2>For Young Coders:</h2>
-    <a id="made-with-code" class="link" href="https://www.madewithcode.com/projects/">Made With Code</a>
-    <a id="tynker" class="link" href="https://www.tynker.com/hour-of-code/">Tynker</a>
-  </div>
-  <div id="even-more" class="category">
-    <h2>For Coders Who Need More:</h2>
-    <a id="code-org" class="link" href="https://code.org/learn">Other Hour Of Code Activities</a>
-  </div>
+<div id="try-more" class="category">
+  <h2>Medium:</h2>
+    <a id="flappy-bike" class="activity" href="https://hourofcode.com/codestersflappybike">Flappy Bike</a>
+    <a id="iphone-game" class="activity" href="https://hourofcode.com/makeschool">Create a Game on your iPhone</a>
+    <a id="javascript" class="activity" href="http://hoc.codehs.com/">Javascript</a>
+    <a id="processing" class="activity" href="http://hello.processing.org/">Processing</a>
+</div>
 
-  <div id="our-sponsors" class="category">
-    <h3>Thank You to Our Sponsors:</h3>
-    <a id="team-178" href="http://farmingtonrobotics.org">The Second Law Enforcers</a>
-    <a id="symantec" href="https://www.symantec.com/index.jsp"></a>
-  </div>
+<div id="want-challenge" class="category">
+  <h2>Hard:</h2>
+  <a id="robot-java" class="activity" href="https://www.educative.io/collection/13890001/5677350838599680">Robot in Java</a>
+  <a id="frogger" class="activity" href="https://hourofcode.com/frogger">Frogger</a>
+</div>
+
+<div id="even-more" class="category">
+  <h2>For Coders Who Need More:</h2>
+  <a id="code-org" class="link" href="https://code.org/learn">Other Hour Of Code Activities</a>
+  <a id="codecadamy" class="link" href="https://www.codecademy.com/learn">Codecadamy Lessons</a>
+</div>
 </body>
 </html>
