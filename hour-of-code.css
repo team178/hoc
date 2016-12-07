@@ -95,10 +95,6 @@ h3 {
   background: url('./img/solar-system.jpg') no-repeat;
 }
 
-#light-bot {
-  background: url('./img/light_bot.png') no-repeat;
-}
-
 #text-compression {
   background: url('./img/text-compression.png') no-repeat;
 }
@@ -107,8 +103,12 @@ h3 {
   background: url('./img/calculators.png') no-repeat;
 }
 
-#app-inventor {
-  background: url('./img/app-inventor.png') no-repeat;
+#light-bot {
+  background: url('./img/light_bot.png') no-repeat;
+}
+
+#santa-tracker {
+  background: url('./img/santatracker.png') no-repeat;
 }
 
 
@@ -118,6 +118,10 @@ h3 {
 
 #iphone-game {
   background: url('./img/iphone-game.png') no-repeat;
+}
+
+#app-inventor {
+  background: url('./img/app-inventor.png') no-repeat;
 }
 
 #javascript {
