@@ -1,0 +1,25 @@
+# Editor files
+*~
+
+# OS X
+.DS_Store
+.hushlogin
+
+# Windows
+Thumbs.db
+
+# Eclipse project info
+.settings
+.project
+
+# Ruby
+/Gemfile.lock
+
+# Jekyll
+/_site
+
+# External Repo Pages
+/website-testing
+/hofc
+/countdown
+/bingo
