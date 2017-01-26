@@ -141,3 +141,21 @@ h3 {
 #frogger {
   background: url('./img/frogger.png') no-repeat;
 }
+
+/* FLL Jr. Expo Stuff */
+
+#minecraft {
+  background: url('./img/minecraft.png') no-repeat;
+}
+
+#playlab {
+  background: url('./img/playlab.png') no-repeat;
+}
+
+#code-monkey {
+  background: url('./img/code-monkey.jpg') no-repeat;
+}
+
+#angry-birds {
+  background: url('./img/angry-birds.png') no-repeat;
+}
