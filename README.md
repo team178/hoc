@@ -1,5 +1,4 @@
-# hoc
-Hour of Code website
+# Hour of Code website
 
 ### How to run locally
 This assumes you already have Jekyll set up; if you don't, head [here](https://github.com/team178/team178.github.io#running-locally).
