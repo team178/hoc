@@ -1,4 +1,4 @@
-# hofc
+# hoc
 Hour of Code website
 
 ### How to run locally
