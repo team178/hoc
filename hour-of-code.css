@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 /* @font-face {
     font-family: "StencilStd";
@@ -16,8 +16,7 @@ body {
 /* This styles the "title" of the page */
 #header {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: -25px;
 }
 
 /* These things style the videos */
@@ -43,12 +42,13 @@ h1 a {
   -webkit-margin-after: 0;
   text-shadow: none;
   color: #000000;
+  line-height: 1.15em;
 }
 
 h2 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 45px;
-  line-height: 1.5em;
+  line-height: 1.15em;
   font-weight: normal;
   -webkit-margin-after: 0;
 }
@@ -72,6 +72,7 @@ h3 {
   width: 220px;
   height: 200px;
   float: left;
+  line-height: 1.15em;
 }
 
 /* This class styles the "even more" links at the bottom */
@@ -95,12 +96,16 @@ h3 {
   background: url('./img/solar-system.jpg') no-repeat;
 }
 
+#playtune {
+  background: url('./img/playtune.png') no-repeat;
+}
+
 #text-compression {
   background: url('./img/text-compression.png') no-repeat;
 }
 
-#calculators {
-  background: url('./img/calculators.png') no-repeat;
+#encryption {
+  background: url('./img/encryption.png') no-repeat;
 }
 
 #light-bot {
@@ -109,6 +114,10 @@ h3 {
 
 #santa-tracker {
   background: url('./img/santatracker.png') no-repeat;
+}
+
+#gp-blocks {
+  background: url('./img/gp-blocks.png') no-repeat;
 }
 
 
@@ -132,15 +141,46 @@ h3 {
   background: url('./img/processing.png') no-repeat;
 }
 
-
+#khan {
+  background: url('./img/khan.png') no-repeat;
+}
 
 #robot-java {
   background: url('./img/java-logo.jpg') no-repeat;
 }
 
+#js-app {
+  background: url('./img/js-app.png') no-repeat;
+}
+
+#intro-python {
+  background: url('./img/intro-python.png') no-repeat;
+}
+
+#robot-world {
+  background: url('./img/robot-world.png') no-repeat;
+}
+
 #frogger {
   background: url('./img/frogger.png') no-repeat;
 }
+
+#image-manip {
+  background: url('./img/image-manip.png') no-repeat;
+}
+
+#makeschool {
+  background: url('./img/makeschool.png') no-repeat;
+}
+
+#google-rabbit {
+  background: url('./img/google-rabbit.png') no-repeat;
+}
+
+/*#resource-machine {
+  background: url('./img/resource-machine.png') no-repeat;
+}*/
+
 
 /* FLL Jr. Expo Stuff */
 
