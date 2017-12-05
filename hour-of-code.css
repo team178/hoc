@@ -141,6 +141,14 @@ h3 {
   background: url('./img/processing.png') no-repeat;
 }
 
+#animate-name {
+  background: url('./img/animate-name.png') no-repeat;
+}
+
+#app-lab {
+  background: url('./img/app-lab.png') no-repeat;
+}
+
 #khan {
   background: url('./img/khan.png') no-repeat;
 }
