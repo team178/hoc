@@ -19,7 +19,7 @@ body {
   margin-top: -25px;
 }
 
-/* These things style the videos */
+/* These things used to style videos */
 .video {
   margin-left: 10px;
   margin-right: 10px;
@@ -73,6 +73,7 @@ h3 {
   height: 200px;
   float: left;
   line-height: 1.15em;
+  background-size: auto 100% !important;
 }
 
 /* This class styles the "even more" links at the bottom */
@@ -84,24 +85,24 @@ h3 {
   border-radius: 15px;
 }
 
-#bubble-name {
-  background: url('./img/bubble-name.jpg') no-repeat;
-}
-
-#about-me-website {
-  background: url('./img/about_me.jpg') no-repeat;
-}
-
-#solar-system {
-  background: url('./img/solar-system.jpg') no-repeat;
-}
-
 #playtune {
   background: url('./img/playtune.png') no-repeat;
 }
 
-#text-compression {
-  background: url('./img/text-compression.png') no-repeat;
+#dance-party {
+  background: url('./img/dance-party.jpg') no-repeat center;
+}
+
+#mit-doodle {
+  background: url('./img/mit-doodle.jpg') no-repeat center;
+}
+
+#wonder-woman {
+  background: url('./img/wonder-woman.jpg') no-repeat right;
+}
+
+#trivia-bot {
+  background: url('./img/trivia-bot.jpg') no-repeat;
 }
 
 #encryption {
@@ -139,6 +140,7 @@ h3 {
 
 #processing {
   background: url('./img/processing.png') no-repeat;
+  background-size: 100% auto !important;
 }
 
 #animate-name {
@@ -177,6 +179,22 @@ h3 {
   background: url('./img/image-manip.png') no-repeat;
 }
 
+#mobile-map {
+  background: url('./img/mobile-map.jpg') no-repeat;
+}
+
+#art-life {
+  background: url('./img/art-life.jpg') no-repeat;
+}
+
+#web-design {
+  background: url('./img/web-design.jpg') no-repeat center;
+}
+
+#python {
+  background: url('./img/python.jpg') no-repeat right;
+}
+
 #makeschool {
   background: url('./img/makeschool.png') no-repeat;
 }
@@ -185,9 +203,10 @@ h3 {
   background: url('./img/google-rabbit.png') no-repeat;
 }
 
-/*#resource-machine {
+#resource-machine {
   background: url('./img/resource-machine.png') no-repeat;
-}*/
+  background-size: 100% auto !important;
+}
 
 
 /* FLL Jr. Expo Stuff */
